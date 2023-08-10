@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import demo from "../assets/images/demo.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -26,10 +27,10 @@ const Projects = () => {
         "https://ian-mlolwa-boook-recommendation-system-app-asmnpz.streamlit.app/",
     },
     {
-      img: "",
-      name: "",
-      github_link: "",
-      live_link: "",
+      img: demo,
+      name: "Portfolio",
+      github_link: "https://github.com/Ian-Mlolwa/Ian-Portfolio",
+      live_link: "https://my-portfolio-ian.netlify.app/",
     },
   ];
   return (
