@@ -27,10 +27,22 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-400 my-3">
               <p className="text-justify w-11/12">
-                kbj cd dc jdjkdcjjcdcjsdc s dcsk ds dc sd j sd jsdc jdk dkds ckd
-                cckj dsc sd sc dsocsicb b bbd b sbdbdiucbdsbbcdsbcksdb c bd
-                iudsbb dcbd i u dbdibdssu dsu cu duibc ubc bbucsbud
-                dubdsbcuisbdiuc bds
+                Ian Mlolwa, Web-Developer & Designer.
+                <br />
+                <br />
+                Dedicated to using art and designer skills to both create and
+                develop colorful works as I continue expand my skills.
+                <br />
+                <br /> With my 3 year of experience, Ian specialises in learning
+                intresting skills in general and used them to become a better
+                designer and a developer to Full-Stack. My main focus is to
+                offer superior and satisfying solutions for clients as I also
+                enjoy the skill of art and design.
+                <br />
+                <br /> Ian enjoys meeting new people and learning new skills
+                that contribute to what I find as art. I find this skill
+                especially advantageous when kicking off projects with new
+                style.
               </p>
 
               <div className="flex mt-10 items-center gap-7">
