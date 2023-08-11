@@ -8,19 +8,19 @@ import { Autoplay, Pagination } from "swiper/modules";
 const Projects = () => {
   const projects = [
     {
-      img: "https://github.com/Ian-Mlolwa/Ian-Mlolwa/assets/75843266/3828c828-c107-4952-a226-933214fd3d12",
+      img: "https://github.com/Ian-Mlolwa/Shop_Web/assets/75843266/19120ebb-0623-493c-9240-b947e62f8d39",
       name: "Shopping Web",
       github_link: "https://github.com/Ian-Mlolwa/Shop_Web",
       live_link: "https://shop-web-ian.netlify.app",
     },
     {
-      img: "https://github.com/Ian-Mlolwa/Ian-Mlolwa/assets/75843266/08641318-7918-4fa1-821b-9e2a566932aa",
+      img: "https://github.com/Ian-Mlolwa/Startup_net/assets/75843266/4b05efaa-2276-450d-ae0a-aabfc82f7d6e",
       name: "StartUp Net",
       github_link: "https://github.com/Ian-Mlolwa/Startup_net",
       live_link: "https://start-app-net.netlify.app",
     },
     {
-      img: "https://github.com/Ian-Mlolwa/Ian-Mlolwa/assets/75843266/9b299388-024c-41ce-b6a9-4ef322c670df",
+      img: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System/assets/75843266/c6919e76-fad6-4516-82c0-21e10abc1e62",
       name: "Book Recommendation",
       github_link: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System",
       live_link:
