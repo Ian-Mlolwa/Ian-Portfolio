@@ -1,7 +1,6 @@
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button } from "react-bootstrap";
 
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
