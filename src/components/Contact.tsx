@@ -3,7 +3,33 @@ import { faEnvelope, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button } from "react-bootstrap";
 
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef(null);
+
+  const sendEmail = (e: { preventDefault: () => void }) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_imsnpeo",
+        "template_h1f3r2g",
+        form.current as any,
+        "5ZADXoKCGewCi0JHe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   const contact_list = [
     { logo: faEnvelope, text: "ianmlolwa2@gmail.com" },
     { logo: faWhatsapp, text: "+254769526109" },
@@ -21,11 +47,34 @@ const Contact = () => {
           className="mt-10 flex md:flex-row gap-6 flex-col max-w-5xl bg-gray-800 p-6
         rounded-lg mx-auto"
         >
-          <form className="flex flex-col flex-1 gap-5">
-            <input type="text" placeholder="Your Name" />
-            <input type="Email" placeholder="Your Email Address" />
-            <textarea placeholder="Your Message" rows={10}></textarea>
-            <Button className="w-fit">Send Message</Button>
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="flex flex-col flex-1 gap-5"
+          >
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Your Email Address"
+              required
+            />
+            <textarea
+              name="message"
+              rows={10}
+              placeholder="Your Message"
+              required
+            />
+            <input
+              type="submit"
+              value="Send Message"
+              className="btn-primary w-fit"
+            />
           </form>
           <div className="flex flex-col gap-7">
             {contact_list.map((item, i) => (

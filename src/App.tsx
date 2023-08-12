@@ -15,11 +15,12 @@ function App() {
   return (
     <>
       <NavBar />
+
       <Hero />
       <Bot />
       <About />
       <Skills />
-      
+
       <Projects />
       <Contact />
       <Footer />
