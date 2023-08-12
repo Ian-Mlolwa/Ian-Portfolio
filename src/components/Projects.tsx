@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       img: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System/assets/75843266/c6919e76-fad6-4516-82c0-21e10abc1e62",
-      name: "Book Recommendation",
+      name: "Book Recommender",
       github_link: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System",
       live_link:
         "https://ian-mlolwa-boook-recommendation-system-app-asmnpz.streamlit.app/",
