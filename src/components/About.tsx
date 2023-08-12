@@ -58,7 +58,7 @@ const About = () => {
               </div>
 
               <br />
-              <a href="./src/assets/Ian-CV.pdf" download>
+              <a href="../src/assets/Ian-CV.pdf" download>
                 <Button className="mt-6 hover:bg-cyan-900">Download CV</Button>
               </a>
             </div>
