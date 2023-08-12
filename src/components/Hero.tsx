@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import Pic from "../assets/images/Hero.png";
 import {
   faFacebook,
