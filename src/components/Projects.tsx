@@ -30,7 +30,6 @@ const Projects = () => {
       img: demo,
       name: "Portfolio",
       github_link: "https://github.com/Ian-Mlolwa/Ian-Portfolio",
-      live_link: "https://my-portfolio-ian.netlify.app/",
     },
   ];
   return (
