@@ -11,26 +11,31 @@ const Skills = () => {
   const skills = [
     {
       logo: faHtml5,
+      name: "HTML",
       level: "Expert",
       count: 98,
     },
     {
       logo: faCss3Alt,
+      name: "CSS",
       level: "Advance",
       count: 80,
     },
     {
       logo: faReact,
+      name: "React",
       level: "Intermediate",
       count: 65,
     },
     {
       logo: faPython,
+      name: "Python",
       level: "Intermediate",
       count: 45,
     },
     {
       logo: faNodeJs,
+      name: "NodeJs",
       level: "Begginer",
       count: 15,
     },
@@ -59,6 +64,7 @@ const Skills = () => {
                   <FontAwesomeIcon icon={skill.logo as any} />
                 </div>
               </div>
+              <p className="text-cyan-600 mt-3">{skill.name}</p>
               <p className="text-xl mt-3">{skill.level}</p>
             </div>
           ))}
