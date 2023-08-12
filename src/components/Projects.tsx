@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       img: "https://github.com/Ian-Mlolwa/Shop_Web/assets/75843266/19120ebb-0623-493c-9240-b947e62f8d39",
-      name: "Shopping Web",
+      name: "Shopping",
       github_link: "https://github.com/Ian-Mlolwa/Shop_Web",
       live_link: "https://shop-web-ian.netlify.app",
     },
