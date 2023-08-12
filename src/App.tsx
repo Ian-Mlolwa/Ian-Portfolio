@@ -4,7 +4,7 @@ import Bot from "./components/Bot";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
-//import Hireme from "./components/Hireme";
+import Hireme from "./components/Hireme";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -19,7 +19,7 @@ function App() {
       <Bot />
       <About />
       <Skills />
-      
+      <Hireme />
       <Projects />
       <Contact />
       <Footer />
