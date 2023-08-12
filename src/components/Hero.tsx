@@ -42,7 +42,6 @@ const Hero = () => {
           >
             Front-End Developer
           </h4>
-          <Button className="mt-8 hover:bg-cyan-900">Contact Me</Button>
 
           <div className="text-gray-600 mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
             {social_media?.map((media) => (
