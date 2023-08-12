@@ -4,6 +4,7 @@ import B from "../assets/images/B.png";
 import O from "../assets/images/O.png";
 import U from "../assets/images/U.png";
 import T from "../assets/images/T.png";
+import CV from "../assets/Ian-CV.pdf";
 
 const About = () => {
   const info = [
@@ -58,7 +59,7 @@ const About = () => {
               </div>
 
               <br />
-              <a href="../src/assets/Ian-CV.pdf" download>
+              <a href={CV} download>
                 <Button className="mt-6 hover:bg-cyan-900">Download CV</Button>
               </a>
             </div>
