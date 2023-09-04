@@ -48,7 +48,7 @@ const Projects = () => {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 1,
+                slidesPerView: 2,
               },
             }}
             loop={true}
