@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-600 text-sm p-4 text-center text-white">
       Copyright <FontAwesomeIcon icon={faCopyright as any} />{" "}
-      {new Date().getFullYear()} Ian Mlolwa.All Right reserved
+      {new Date().getFullYear()} Shaban.All Right reserved
     </div>
   );
 };

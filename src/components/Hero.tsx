@@ -1,4 +1,4 @@
-import Pic from "../assets/images/Hero.png";
+import Pic from "../assets/images/sam-removebg-preview.png";
 import {
   faFacebook,
   faGithub,
@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section id="home" className="flex py-10 md:flex-row flex-col items-center">
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={Pic} alt="ianmlolwa" className="md:w-11/12 object-cover" />
+        <img src={Pic} alt="ianmlolwa" className="md:w-12/12 object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
@@ -33,7 +33,7 @@ const Hero = () => {
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello! <br />
             </span>
-            My name is <span>Ian Mlolwa</span>
+            My name is <span>Shaban Ongoma</span>
           </h1>
           <h4
             className="md:text-2xl text-lg md:leading-normal leading leading-5 mt-4

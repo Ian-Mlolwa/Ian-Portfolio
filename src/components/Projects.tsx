@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import demo from "../assets/images/demo.png";
+import demo from "../assets/images/sensorium.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -20,16 +20,9 @@ const Projects = () => {
       live_link: "https://start-app-net.netlify.app",
     },
     {
-      img: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System/assets/75843266/c6919e76-fad6-4516-82c0-21e10abc1e62",
-      name: "Book Recommender",
-      github_link: "https://github.com/Ian-Mlolwa/Boook-Recommendation-System",
-      live_link:
-        "https://ian-mlolwa-boook-recommendation-system-app-asmnpz.streamlit.app/",
-    },
-    {
       img: demo,
-      name: "Portfolio",
-      github_link: "https://github.com/Ian-Mlolwa/Ian-Portfolio",
+      name: "Sensorium",
+      live_link: "https://gorgeous-fairy-82f60a.netlify.app/",
     },
   ];
   return (

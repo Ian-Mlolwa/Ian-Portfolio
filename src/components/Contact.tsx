@@ -30,9 +30,9 @@ const Contact = () => {
   };
 
   const contact_list = [
-    { logo: faEnvelope, text: "ianmlolwa2@gmail.com" },
+    { logo: faEnvelope, text: "shabanongoma@gmail.com" },
     { logo: faWhatsapp, text: "+254769526109" },
-    { logo: faLocationDot, text: "Kenya, Embu" },
+    { logo: faLocationDot, text: "Kenya" },
   ];
   return (
     <section id="contact" className="py-10 text-white ">

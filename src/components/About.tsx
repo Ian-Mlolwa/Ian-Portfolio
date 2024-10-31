@@ -28,7 +28,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-400 my-3">
               <p className="text-justify w-11/12">
-                Ian Mlolwa, Web-Developer & Designer.
+                Shaban Ongoma, Web-Developer & Designer.
                 <br />
                 <br />
                 Dedicated to using art and designer skills to both create and
@@ -40,7 +40,7 @@ const About = () => {
                 offer superior and satisfying solutions for clients as I also
                 enjoy the skill of art and design.
                 <br />
-                <br /> Ian enjoys meeting new people and learning new skills
+                <br /> I enjoy meeting new people and learning new skills
                 that contribute to what I find as art. I find this skill
                 especially advantageous when kicking off projects with new
                 style.
@@ -58,10 +58,8 @@ const About = () => {
                 ))}
               </div>
 
-              <br />
-              <a href={CV} download>
-                <Button className="mt-6 hover:bg-cyan-900">Download CV</Button>
-              </a>
+              <br /> 
+              
             </div>
           </div>
 
