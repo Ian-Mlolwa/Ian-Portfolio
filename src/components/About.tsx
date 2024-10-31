@@ -1,10 +1,10 @@
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 import A from "../assets/images/A.png";
 import B from "../assets/images/B.png";
 import O from "../assets/images/O.png";
 import U from "../assets/images/U.png";
 import T from "../assets/images/T.png";
-import CV from "../assets/Ian-CV.pdf";
+//import CV from "../assets/Ian-CV.pdf";
 
 const About = () => {
   const info = [
