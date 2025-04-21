@@ -26,7 +26,7 @@ const NavBar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7">
           <h4 className="text-4xl uppercase font-bold ">
-            SH<span className="text-cyan-600">AB</span>AN
+            I<span className="text-cyan-600">A</span>N
           </h4>
         </div>
         <div
