@@ -1,4 +1,4 @@
-import Pic from "../assets/images/sam-removebg-preview.png";
+import Pic from "../assets/images/Hero.png";
 import {
   faFacebook,
   faGithub,
@@ -33,7 +33,7 @@ const Hero = () => {
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello! <br />
             </span>
-            My name is <span>Shaban Ongoma</span>
+            <span>Ian Mlolwa</span>
           </h1>
           <h4
             className="md:text-2xl text-lg md:leading-normal leading leading-5 mt-4
