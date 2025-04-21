@@ -28,7 +28,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-400 my-3">
               <p className="text-justify w-11/12">
-                Shaban Ongoma, Web-Developer & Designer.
+                Ian Mlolwa, Web-Developer & Designer.
                 <br />
                 <br />
                 Dedicated to using art and designer skills to both create and
