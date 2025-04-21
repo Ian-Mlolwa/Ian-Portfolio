@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   const contact_list = [
-    { logo: faEnvelope, text: "shabanongoma@gmail.com" },
+    { logo: faEnvelope, text: "ianmlolwa2@gmail.com" },
     { logo: faWhatsapp, text: "+254769526109" },
     { logo: faLocationDot, text: "Kenya" },
   ];
